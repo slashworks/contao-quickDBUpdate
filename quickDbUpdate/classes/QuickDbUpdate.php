@@ -18,11 +18,10 @@ class QuickDbUpdate extends Backend {
     {
 
         if ($strTemplate == 'be_main') {
-
             $strContent = str_replace
             (
-                '<div id="header">',
-                $this->setOuptput().'<div id="header">',
+                '</body>',
+                $this->setOuptput().'</body>',
                 $strContent
             );
 
