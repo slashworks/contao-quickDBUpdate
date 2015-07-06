@@ -1,4 +1,4 @@
-.qudb-container {
+body:not(.popup) .qudb-container {
 
     position: fixed;
     top: 0;
@@ -6,7 +6,7 @@
     
 }
 
-.qudb-link {
+body:not(.popup) .qudb-link {
 
     background: url("../img/icon_database.png") no-repeat;
     display: block;
